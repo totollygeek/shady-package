@@ -1,0 +1,15 @@
+{
+    "name": "shady-package",
+    "version": "1.0.0",
+    "description": "DO NOT USE IN PRODUCTION !!! PoC for supply chain attacks",
+    "main": "index.js",
+    "scripts": {
+        "postinstall": "node postinstall.js"
+    },
+    "author": "Todor Todorov (totollygeek)",
+    "license": "MIT",
+    "files": [
+        "index.js",
+        "postinstall.js"
+    ]
+}
