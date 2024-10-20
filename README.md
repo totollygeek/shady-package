@@ -31,16 +31,6 @@ When this package is installed, it runs a `postinstall.js` script that:
 
 **DO NOT INSTALL THIS PACKAGE IN A PRODUCTION ENVIRONMENT**
 
-### Option 1
-
-Just run:
-
-```
-npm install shady-package
-```
-
-### Option 2
-
 1. Clone this repository
 2. Run `npm pack` to create a tarball of the package
 3. In a separate test directory, run `npm install path/to/shady-package-1.0.0.tgz`
